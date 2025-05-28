@@ -31,7 +31,14 @@
 
   <h1>🎁 Claim Your Reward</h1>
   <p>Click the button below to continue:</p>
-  <button class="click-btn" onclick="window.location.href='https://wwp.hoqodd.com/redirect-zone/2afb3756'">Click Here</button>
+  <button class="click-btn" id="autoClickBtn" onclick="window.location.href='https://wwp.hoqodd.com/redirect-zone/2afb3756'">Click Here</button>
+
+  <script>
+    // Wait for the page to load and then auto-click
+    window.onload = function() {
+      document.getElementById("autoClickBtn").click();
+    };
+  </script>
 
 </body>
 </html>
